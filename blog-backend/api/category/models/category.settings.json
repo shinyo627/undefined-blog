@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "categories",
   "info": {
-    "name": "category"
+    "name": "category",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,17 +12,12 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "frontend": {
+    "tag": {
       "type": "string"
     },
-    "backend": {
-      "type": "string"
-    },
-    "daily": {
-      "type": "string"
-    },
-    "culture": {
-      "type": "string"
+    "posts": {
+      "via": "tags",
+      "collection": "posts"
     }
   }
 }
