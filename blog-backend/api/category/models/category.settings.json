@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories",
+  "info": {
+    "name": "category"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "frontend": {
+      "type": "string"
+    },
+    "backend": {
+      "type": "string"
+    },
+    "daily": {
+      "type": "string"
+    },
+    "culture": {
+      "type": "string"
+    }
+  }
+}
